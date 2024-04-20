@@ -8,7 +8,7 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-3xl lg:max-w-4xl lg:px-12">
           <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-red-600 sm:text-5xl">
-            Green Shift: Denmark's Energy Path
+            Green Shift: Denmark&apos;s Energy Path
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-red-900">
             <p>

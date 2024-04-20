@@ -1,6 +1,7 @@
 'use client'
 
 import { Container } from '@/components/Container'
+import Script from 'next/script'
 
 export function Part1() {
   return (
@@ -23,6 +24,14 @@ export function Part1() {
             nihil! Enim!
           </p>
         </div>
+        <div
+          className="flourish-embed flourish-bar-chart-race mt-5"
+          data-src="visualisation/17482383"
+        />
+        <Script
+          src="https://public.flourish.studio/resources/embed.js"
+          strategy="afterInteractive"
+        />
       </Container>
     </section>
   )
