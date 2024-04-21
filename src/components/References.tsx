@@ -34,6 +34,7 @@ export function References() {
           <p className="mt-4 text-left font-display text-2xl tracking-tight text-red-900">
             {references.map((reference) => (
               <a
+                key={reference.id}
                 href={reference.url}
                 target="_blank"
                 rel="noopener noreferrer"

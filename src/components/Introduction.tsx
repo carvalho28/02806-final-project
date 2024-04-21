@@ -28,12 +28,12 @@ export function Introduction() {
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             In 2023,{' '}
             <b>
-              wind power accounted for over 57 percent of Denmark's electricity
-              generation
+              wind power accounted for over 57 percent of Denmark&apos;s
+              electricity generation
             </b>
             , a testament to its commitment to green energy. This website
-            explores Denmark's strategies, comparing its performance with other
-            European countries in areas such as renewable energy adoption,
+            explores Denmark&apos;s strategies, comparing its performance with
+            other European countries in areas such as renewable energy adoption,
             economic impact, and policy responses.
           </p>
 
