@@ -11,7 +11,7 @@ export function Header() {
           <div className="flex items-center gap-4">
             <p>Final Project</p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>2806 – Social Data Analysis and Visualization</p>
+            <p>02806 Social Data Analysis and Visualization</p>
           </div>
         </div>
         <div className="flex-none">

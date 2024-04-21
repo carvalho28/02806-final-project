@@ -14,7 +14,7 @@ export function Us() {
   return (
     <section id="us" aria-label="Us" className="sm:py-15 py-10">
       <Container>
-        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-red-900 sm:text-5xl">
+        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-red-900 sm:text-4xl">
           Who are we?
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">

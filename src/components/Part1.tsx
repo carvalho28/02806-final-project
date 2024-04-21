@@ -13,7 +13,7 @@ export function Part1() {
         <div className="mx-auto max-w-3xl lg:mx-0">
           <h2
             id="part1-title"
-            className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-5xl"
+            className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-4xl"
           >
             Part 1: ...
           </h2>
