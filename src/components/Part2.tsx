@@ -1,6 +1,7 @@
 'use client'
 
 import { Container } from '@/components/Container'
+import Script from 'next/script'
 
 export function Part2() {
   return (
@@ -17,11 +18,17 @@ export function Part2() {
             Part 2: ...
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi n
             accusamus doloribus blanditiis unde facere ab tenetur eius maiores
             voluptas iure laboriosam aut sit iste et natus veritatis, nemo
             asperiores reprehenderit.
           </p>
+        </div>
+        <div
+          className="flourish-embed flourish-map mt-5 border-2 border-red-200"
+          data-src="visualisation/17679681"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
       </Container>
     </section>

@@ -25,7 +25,7 @@ export function Part1() {
           </p>
         </div>
         <div
-          className="flourish-embed flourish-bar-chart-race mt-5"
+          className="flourish-embed flourish-bar-chart-race mt-5 border-2 border-red-200"
           data-src="visualisation/17482383"
         />
         <Script
