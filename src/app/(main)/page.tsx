@@ -5,6 +5,7 @@ import { Introduction } from '@/components/Introduction'
 import { Us } from '@/components/Us'
 import { References } from '@/components/References'
 import { Conclusion } from '@/components/Conclusion'
+import { Graphs } from '@/components/Graphs'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Introduction />
       <Part1 />
       <Part2 />
+      <Graphs />
       <Conclusion />
       <References />
       <Us />
