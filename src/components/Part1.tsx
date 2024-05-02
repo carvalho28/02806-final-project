@@ -7,7 +7,7 @@ export function Part1() {
   return (
     <section
       id="part1"
-      className="sm:py-15 flex items-center justify-center py-10"
+      className="sm:py-15 flex items-center justify-center scroll-smooth py-10"
     >
       <Container className="relative z-10">
         <div className="mx-auto max-w-3xl lg:mx-0">

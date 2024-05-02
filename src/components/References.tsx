@@ -21,7 +21,7 @@ export function References() {
   return (
     <section
       id="references"
-      className="sm:py-15 flex items-center justify-center py-4"
+      className="sm:py-15 flex items-center justify-center scroll-smooth py-4"
     >
       <Container className="relative z-10">
         <div className="mx-auto max-w-3xl lg:mx-0">

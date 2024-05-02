@@ -6,7 +6,7 @@ export function Introduction() {
   return (
     <section
       id="intro"
-      className="sm:py-15 flex items-center justify-center pb-10 pt-6"
+      className="sm:py-15 flex items-center justify-center scroll-smooth pb-10 pt-6"
     >
       <Container className="relative z-10">
         <div className="mx-auto max-w-3xl lg:mx-0">

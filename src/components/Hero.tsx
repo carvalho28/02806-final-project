@@ -5,7 +5,7 @@ import WindDenmark from '@/images/windDenmark.jpg'
 
 export function Hero() {
   return (
-    <div className="relative sm:pb-10 sm:pt-20">
+    <div className="relative scroll-smooth sm:pb-10 sm:pt-20">
       <BackgroundImage className="-top-25 -bottom-14" />
       <Container className="relative">
         <div className="mx-auto max-w-3xl lg:max-w-4xl lg:px-12">

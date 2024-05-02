@@ -7,7 +7,7 @@ export function Graphs() {
   return (
     <section
       id="graphs"
-      className="sm:py-15 flex items-center justify-center py-10"
+      className="sm:py-15 flex items-center justify-center scroll-smooth py-10"
     >
       <Container className="relative z-10">
         <div className="mx-auto max-w-3xl lg:mx-0">
@@ -68,6 +68,22 @@ export function Graphs() {
         <div
           className="flourish-embed flourish-chart border-2 border-red-200"
           data-src="visualisation/17505568"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+
+        {/* CO2 emissions per capita */}
+        <div
+          className="flourish-embed flourish-chart"
+          data-src="visualisation/17806809"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+
+        {/* Fossil fuels (% equivalent primary energy) */}
+        <div
+          className="flourish-embed flourish-chart"
+          data-src="visualisation/17807426"
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>

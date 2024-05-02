@@ -12,7 +12,7 @@ const members = [
 
 export function Us() {
   return (
-    <section id="us" aria-label="Us" className="sm:py-15 py-10">
+    <section id="us" aria-label="Us" className="sm:py-15 scroll-smooth py-10">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-red-900 sm:text-4xl">
           Who are we?
