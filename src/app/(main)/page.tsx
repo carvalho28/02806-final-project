@@ -6,6 +6,7 @@ import { Us } from '@/components/Us'
 import { References } from '@/components/References'
 import { Conclusion } from '@/components/Conclusion'
 import { Graphs } from '@/components/Graphs'
+import { NotebookPart } from '@/components/NotebookPush'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Part2 />
       <Graphs />
       <Conclusion />
+      <NotebookPart />
       <References />
       <Us />
     </>
