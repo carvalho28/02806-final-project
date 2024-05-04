@@ -38,20 +38,20 @@ export function Part2() {
         </div>
         <div className="mx-auto max-w-3xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            This visualization reveals a notable decrease in Denmark's
-            greenhouse gas emissions over the past 25 years. It's important to
-            note that these emissions encompass more than just CO<sub>2</sub>;
-            they include any gases that absorb infrared radiation emitted from
+            This visualization reveals a notable decrease in Denmark&apos;s
+            greenhouse gas emissions over the past 25 years. It&apos;s important
+            to note that these emissions encompass more than just CO<sub>2</sub>
+            ; they include any gases that absorb infrared radiation emitted from
             the Earth&apos;s surface, contributing to the greenhouse effect.
             This includes carbon dioxide, methane, and even water vapor, with
             our data covering these gases except for CO<sub>2</sub> from
             biomass.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            The downward trend in these emissions reflects Denmark's recognition
-            of environmental issues and its proactive measures to address them.
-            This success marks a significant stride towards cleaner air and a
-            sustainable future.
+            The downward trend in these emissions reflects Denmark&apos;s
+            recognition of environmental issues and its proactive measures to
+            address them. This success marks a significant stride towards
+            cleaner air and a sustainable future.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Decomposing the Emissions
