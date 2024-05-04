@@ -17,7 +17,7 @@ export function NotebookPart() {
           >
             Notebook
           </h2>
-          <Link href="/notebook">
+          <Link href="/notebook" target="_blank">
             {/* to view the notebook click on the link */}
             <p className=" mt-4 cursor-pointer text-center text-2xl tracking-tight text-red-900 hover:text-red-400 hover:underline">
               Click to view the notebook

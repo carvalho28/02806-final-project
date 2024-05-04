@@ -18,13 +18,10 @@ export function Part2() {
             Development in the last years
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Our fact-checking journey delves into Denmark&apos;s performance
-            across key environmental metrics in recent years, emphasizing
-            greenhouse gas and carbon dioxide (CO<sub>2</sub>) emissions, air
-            quality indicators, and the distribution of energy production and
-            consumption between renewable and non-renewable sources. Let&apos;s
-            examine how Denmark&apos;s efforts have evolved over the past
-            quarter-century.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            delectus ipsum quas unde, iure reiciendis doloribus officia facilis
+            accusamus nemo veniam praesentium? Eaque magnam esse dolorem
+            recusandae harum est voluptate.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Greenhouse Gas Emissions Trends
@@ -38,31 +35,25 @@ export function Part2() {
         </div>
         <div className="mx-auto max-w-3xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            This visualization reveals a notable decrease in Denmark&apos;s
-            greenhouse gas emissions over the past 25 years. It&apos;s important
-            to note that these emissions encompass more than just CO<sub>2</sub>
-            ; they include any gases that absorb infrared radiation emitted from
-            the Earth&apos;s surface, contributing to the greenhouse effect.
-            This includes carbon dioxide, methane, and even water vapor, with
-            our data covering these gases except for CO<sub>2</sub> from
-            biomass.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            voluptatum ullam rem voluptatibus non, dolores quaerat assumenda id
+            nobis libero consequatur pariatur magni, impedit nulla voluptate
+            aut, tempore exercitationem ab?
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            The downward trend in these emissions reflects Denmark&apos;s
-            recognition of environmental issues and its proactive measures to
-            address them. This success marks a significant stride towards
-            cleaner air and a sustainable future.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nemo
+            quia error vitae dolor ipsum facere amet! Incidunt aut
+            exercitationem nostrum voluptates perferendis cumque rerum tenetur
+            adipisci quasi, delectus non.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Decomposing the Emissions
           </h3>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            A deeper look into the emissions reveals that methane, significantly
-            influenced by farming and agriculture (40%), fossil fuels (35%), and
-            waste (20%), along with CO<sub>2</sub> predominantly from the
-            burning of fossil fuels (over 90%), are the primary contributors. By
-            reducing reliance on fossil fuels for daily energy needs, Denmark
-            has effectively curbed its greenhouse gas emissions.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+            voluptates inventore hic at dignissimos repellat aut quisquam ex?
+            Animi eos cupiditate architecto labore repudiandae iste ipsa eius
+            sunt minus unde.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Fossil Fuel Consumption and Energy Transition
@@ -76,24 +67,19 @@ export function Part2() {
         </div>
         <div className="mx-auto max-w-3xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            These charts show the dramatic transformation in Denmark&apos;s
-            energy infrastructure. Over the past twenty years, the share of
-            fossil fuels in Denmark&apos;s primary energy sources has nearly
-            halved—a testament to the country&apos;s commitment to
-            sustainability. The correlation between the reduction in fossil fuel
-            usage and the decrease in greenhouse gas emissions is evident,
-            highlighting a major driver behind the positive environmental trends
-            observed.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            illum explicabo, voluptate obcaecati cum itaque consectetur nihil
+            omnis iste pariatur! Voluptate amet incidunt odio. Assumenda
+            repellendus esse ab vero quisquam.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Exploring the Shift
           </h3>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            How has Denmark achieved such a substantial reduction in its
-            dependency on fossil fuels? Is it a result of decreased overall
-            energy consumption, or has there been a significant shift towards
-            green energy? These are questions we&apos;ll explore as we analyze
-            the changes in how Denmark sources its energy.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            labore nemo ad! Quam, suscipit architecto soluta impedit voluptate
+            id explicabo ut similique, nihil ad odit officia sit expedita fugiat
+            rem!
           </p>
         </div>
       </Container>
