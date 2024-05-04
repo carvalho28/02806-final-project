@@ -51,10 +51,19 @@ export function Introduction() {
           </h3>
           <ul className="ml-6 mt-4 list-disc font-display text-2xl tracking-tight text-red-900">
             <li>
-              <b>Air and Energy: What&apos;s Denmark&apos;s Footprint?</b> Get
-              to know the core environmental and energy data. How pure is the
-              air in Copenhagen? How much power do we harness from the wind and
-              sea?
+              <b>Air and Energy</b>: Discover Denmark&apos;s environmental and
+              energy footprint. How clean is the air in Copenhagen? What is the
+              scale of energy harnessed from the wind and sea?
+            </li>
+            <li>
+              <b>Denmark and Europe</b>: Examine how Denmark stands alongside
+              its European counterparts. What drives Denmark&apos;s leadership
+              in sustainable energy on the continent?
+            </li>
+            <li>
+              <b>Renewable and Economic</b>: Evaluate the dividends of
+              Denmark&apos;s investments in renewable energy. Are the windmills
+              of change truly paying off?
             </li>
             <li>...</li>
           </ul>
