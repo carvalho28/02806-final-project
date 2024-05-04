@@ -156,7 +156,7 @@ export function Part1() {
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             This comparative graph not only shows the fossil fuel share halving
             as a percentage of Denmark&apos;s primary energy sources but also
-            aligns this trend with the country's total energy consumption.
+            aligns this trend with the country&apos;s total energy consumption.
             Impressively, even as Denmark&apos;s reliance on fossil fuels
             diminishes, we also observe a marked decrease in overall energy
             usage. This points to successful efficiency improvements in sectors
@@ -168,16 +168,17 @@ export function Part1() {
             Furthermore, these trends offer insights into the declining
             greenhouse gas emissions we discussed earlier. The strong link
             between reduced fossil fuel usage and lower emissions is undeniable,
-            and while it's not the sole factor, it&apos;s clear that this shift
-            has played a crucial role in Denmark's environmental progress.
+            and while it&apos;s not the sole factor, it&apos;s clear that this
+            shift has played a crucial role in Denmark&apos;s environmental
+            progress.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             As we transition from the tale of fossil fuels to the broader canvas
             of energy sources, it&apos;s essential to explore how both renewable
-            and non-renewable energies are integrated into Denmark's power grid.
-            Next, we will delve into the comprehensive mix of energy sources
-            fueling Denmark today, continuing our journey through Denmark&apos;s
-            green transformation.
+            and non-renewable energies are integrated into Denmark&apos;s power
+            grid. Next, we will delve into the comprehensive mix of energy
+            sources fueling Denmark today, continuing our journey through
+            Denmark&apos;s green transformation.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Powering the nation
