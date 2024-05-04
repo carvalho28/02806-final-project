@@ -87,6 +87,13 @@ export function Graphs() {
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
+
+        <div
+          className="flourish-embed flourish-map"
+          data-src="visualisation/17829385"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
       </Container>
     </section>
   )
