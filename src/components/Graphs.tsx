@@ -24,6 +24,15 @@ export function Graphs() {
             nihil! Enim!
           </p>
         </div>
+        {/* race chart */}
+        <div
+          className="flourish-embed flourish-bar-chart-race mt-5 border-2 border-red-200"
+          data-src="visualisation/17482383"
+        />
+        <Script
+          src="https://public.flourish.studio/resources/embed.js"
+          strategy="afterInteractive"
+        />
         {/*  GDP per capita vs. renewable energy utilization, 2000-2022 */}
         <div
           className="flourish-embed flourish-chart border-2 border-red-200"
