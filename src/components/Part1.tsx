@@ -64,29 +64,30 @@ export function Part1() {
             health risks and enhancing quality of life.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            This improvement in air quality is a testament to Denmark's rigorous
-            environmental policies and its commitment to sustainable practices.
-            Each step toward cleaner air is also a step toward reducing the
-            broader environmental impact, including greenhouse gas emissions.
+            This improvement in air quality is a testament to Denmark&apos;s
+            rigorous environmental policies and its commitment to sustainable
+            practices. Each step toward cleaner air is also a step toward
+            reducing the broader environmental impact, including greenhouse gas
+            emissions.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             As we transition from particulate pollution to greenhouse gases,
-            it's crucial to recognize how interconnected these issues are. The
-            strategies that help scrub the air of particulates also contribute
-            to Denmark&apos;s efforts in curbing CO2 emissions. As we continue
-            our exploration, we'll see how these efforts complement each other,
-            painting a comprehensive picture of Denmark&apos;s environmental
-            strategy.
+            it&apos;s crucial to recognize how interconnected these issues are.
+            The strategies that help scrub the air of particulates also
+            contribute to Denmark&apos;s efforts in curbing CO2 emissions. As we
+            continue our exploration, we&apos;ll see how these efforts
+            complement each other, painting a comprehensive picture of
+            Denmark&apos;s environmental strategy.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Cooling the climate
           </h3>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Another pivotal aspect of Denmark's environmental strategy is its
-            management of greenhouse gas emissions, which serves as a critical
-            barometer of sustainability. Over the past 10 years, Denmark has
-            shown a commendable decrease in these emissions, as illustrated in
-            our next visualization.
+            Another pivotal aspect of Denmark&apos;s environmental strategy is
+            its management of greenhouse gas emissions, which serves as a
+            critical barometer of sustainability. Over the past 10 years,
+            Denmark has shown a commendable decrease in these emissions, as
+            illustrated in our next visualization.
           </p>
         </div>
         {/*  Greenhouse emissions */}
