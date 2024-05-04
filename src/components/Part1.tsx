@@ -97,7 +97,126 @@ export function Part1() {
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">...</div>
+        <div className="mx-auto max-w-3xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Greenhouse gases, which include not only carbon dioxide but also
+            methane, water vapor, and others, trap infrared radiation from the
+            Earth&apos;s surface, contributing to the greenhouse effect. These
+            emissions originate from a variety of sources, encompassing
+            everything from agricultural practices to industrial processes. The
+            graph we present excludes CO<sub>2</sub> emissions from biomass,
+            focusing instead on those emissions most directly linked to human
+            activities.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            The data reveals a consistent decline in overall greenhouse gas
+            emissions, reflecting Denmark&apos;s serious commitment to
+            addressing this global challenge. This success story is particularly
+            evident in the reduction of methane emissions, which are
+            significantly influenced by three main sectors: farming and
+            agriculture, fossil fuels, and waste management. Each sector has
+            seen targeted interventions aimed at reducing its carbon footprint.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Turning our attention to CO<sub>2</sub>, over 90% of these emissions
+            in Denmark stem from the combustion of fossil fuels. This direct
+            link underscores the importance of transitioning away from fossil
+            fuels to alternative energy sources, a strategy that Denmark has
+            been aggressively pursuing. This shift not only contributes to the
+            decrease in CO<sub>2</sub> emissions but also supports the broader
+            decline in greenhouse gases.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            To further understand the impact of these changes, our next step
+            will be to examine Denmark&apos;s consumption of fossil fuels over
+            the same period. This analysis will help us connect the dots between
+            reduced fossil fuel usage and the trends observed in greenhouse gas
+            emissions, providing a clearer picture of the strategies Denmark has
+            employed to achieve these environmental gains.
+          </p>
+          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
+            Fueling the future
+          </h3>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            As we delve deeper into Denmark&apos;s transformative energy
+            landscape, we uncover striking evidence of its commitment to
+            sustainability. Over the past two decades, Denmark has dramatically
+            reshaped its energy framework, substantially reducing its dependence
+            on fossil fuels. This significant change is captured vividly in our
+            next visualization.
+          </p>
+        </div>
+        <div
+          className="flourish-embed flourish-chart mt-4 border-2 border-red-200"
+          data-src="visualisation/17827873"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+        <div className="mx-auto max-w-3xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            This comparative graph not only shows the fossil fuel share halving
+            as a percentage of Denmark&apos;s primary energy sources but also
+            aligns this trend with the country's total energy consumption.
+            Impressively, even as Denmark&apos;s reliance on fossil fuels
+            diminishes, we also observe a marked decrease in overall energy
+            usage. This points to successful efficiency improvements in sectors
+            like housing and manufacturing, where modern technologies have led
+            to less energy consumption without sacrificing productivity or
+            comfort.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Furthermore, these trends offer insights into the declining
+            greenhouse gas emissions we discussed earlier. The strong link
+            between reduced fossil fuel usage and lower emissions is undeniable,
+            and while it's not the sole factor, it&apos;s clear that this shift
+            has played a crucial role in Denmark's environmental progress.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            As we transition from the tale of fossil fuels to the broader canvas
+            of energy sources, it&apos;s essential to explore how both renewable
+            and non-renewable energies are integrated into Denmark's power grid.
+            Next, we will delve into the comprehensive mix of energy sources
+            fueling Denmark today, continuing our journey through Denmark&apos;s
+            green transformation.
+          </p>
+          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
+            Powering the nation
+          </h3>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            As we delve deeper into Denmark&apos;s journey towards a sustainable
+            future, our focus shifts to how the country has transformed its
+            energy mix to meet the daily needs of its citizens and economy. This
+            evolution is crucial not just for reducing environmental impact but
+            also for ensuring a stable, sustainable energy supply for future
+            generations.
+          </p>
+        </div>
+        {/* Energy consumption */}
+        <div
+          className="flourish-embed flourish-chart mt-4 border-2 border-red-200"
+          data-src="visualisation/17507459"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+        <div className="mx-auto max-w-3xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            This interactive graph clearly delineates the shift in energy
+            consumption patterns in Denmark. Notably, the overall energy
+            consumption has declined, reflecting improvements in efficiency
+            across various sectors. Fossil fuels, once the backbone of energy
+            consumption, have seen a significant reduction—oil consumption
+            dropped by around 50 TWh, coal by 25 TWh, and gas by 35 TWh.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            In contrast, renewable energy sources have surged, now forming a
+            substantial part of Denmark&apos;s energy portfolio. Wind energy, in
+            particular, has become a cornerstone, comprising almost 40% of the
+            total energy consumed. This dramatic shift not only highlights
+            Denmark&apos;s leadership in wind energy but also underscores a
+            broader commitment to renewable resources.
+          </p>
+        </div>
+        {/* Energy production */}
       </Container>
     </section>
   )
