@@ -20,9 +20,10 @@ export function Introduction() {
             It&apos;s not uncommon to spot wind turbines gracefully spinning in
             the water as you take a leisurely stroll along the beaches of
             Denmark. Adding to this picturesque scene, a quick browse on the web
-            for topics like <b>"Most sustainable country in the world"</b>{' '}
-            invariably leads you to articles boasting about Denmark's status as
-            the pinnacle of sustainability.
+            for topics like{' '}
+            <b>&quot;Most sustainable country in the world&quot;</b> invariably
+            leads you to articles boasting about Denmark&apos;s status as the
+            pinnacle of sustainability.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             <b>But is it truly deserving of this title?</b> As pragmatic
@@ -35,9 +36,9 @@ export function Introduction() {
             <b>That&apos;s where we come in</b>. We are a group of students from
             the Technical University of Denmark (DTU), and we are here to
             investigate the veracity of these claims. We aim to provide you with
-            a comprehensive overview of Denmark's energy landscape, exploring
-            the country&apos;s commitment to sustainability and the impact of
-            its policies on the environment.
+            a comprehensive overview of Denmark&apos;s energy landscape,
+            exploring the country&apos;s commitment to sustainability and the
+            impact of its policies on the environment.
           </p>
 
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">

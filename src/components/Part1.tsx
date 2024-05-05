@@ -51,11 +51,11 @@ export function Part1() {
             </div>
           </div>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Our journey through Denmark's environmental progress examines key
-            data: air quality improvements, reductions in greenhouse gases, and
-            shifts in energy consumption from fossil fuels to renewables. Each
-            point tells a story of policy success and the ongoing commitment to
-            a sustainable future.
+            Our journey through Denmark&apos;s environmental progress examines
+            key data: air quality improvements, reductions in greenhouse gases,
+            and shifts in energy consumption from fossil fuels to renewables.
+            Each point tells a story of policy success and the ongoing
+            commitment to a sustainable future.
           </p>
         </div>
         <div className="mx-auto max-w-4xl lg:mx-0">
@@ -322,11 +322,11 @@ export function Part1() {
             Denmark&apos;s GDP against previous periods. Despite some
             fluctuations, a clear trend emerges over the last two
             decades—consistent economic growth. This growth period coincides
-            with Denmark's increased investment in renewable energy, suggesting
-            these two are positively correlated. This upward trajectory aligns
-            with Denmark&apos;s significant efforts towards renewable energy,
-            suggesting a positive correlation between economic growth and
-            sustainability.
+            with Denmark&apos;s increased investment in renewable energy,
+            suggesting these two are positively correlated. This upward
+            trajectory aligns with Denmark&apos;s significant efforts towards
+            renewable energy, suggesting a positive correlation between economic
+            growth and sustainability.
           </p>
         </div>
         {/*  GDP per capita vs. renewable energy utilization, 2000-2022 */}
@@ -341,17 +341,17 @@ export function Part1() {
             This correlation is more than mere coincidence; it paints a powerful
             narrative of sustainable development and economic growth. Despite
             initial concerns that investing in renewable energy might hinder
-            economic prosperity, Denmark's experience defies conventional
+            economic prosperity, Denmark&apos;s experience defies conventional
             wisdom. As Denmark has ramped up renewable energy utilization, not
             only has GDP per capita soared, but sectors like clean tech and
             green manufacturing have thrived, clearly debunking the myth that
             environmental care undermines economic vitality.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            While Denmark's commitment to renewable energy has clearly bolstered
-            its economic resilience and global competitiveness, it has not been
-            without challenges, such as the need for significant initial
-            investments and ongoing adjustments in the labor market.
+            While Denmark&apos;s commitment to renewable energy has clearly
+            bolstered its economic resilience and global competitiveness, it has
+            not been without challenges, such as the need for significant
+            initial investments and ongoing adjustments in the labor market.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             As we move forward, Denmark&apos;s journey offers insightful lessons
