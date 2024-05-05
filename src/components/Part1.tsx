@@ -72,11 +72,11 @@ export function Part1() {
             range of health problems.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            The data for our exploration comes from a monitoring station in
-            Risø, noted for having the highest levels of pollution across
-            Denmark. This particular station provides a stark baseline from
-            which to measure the impact of national efforts to improve air
-            quality.
+            The data for our exploration originates from a monitoring station in
+            Risø, which was noted for having the highest levels of air pollution
+            across Denmark at the time of data collection. This particular
+            station provides a stark baseline from which to measure the impact
+            of national efforts to improve air quality.
           </p>
         </div>
 
