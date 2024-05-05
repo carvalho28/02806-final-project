@@ -5,17 +5,30 @@ import { Container } from '@/components/Container'
 const references = [
   {
     id: 1,
-    author: 'Statista',
-    name: 'Denmark: power generation share by source 2023',
-    url: 'https://www.statista.com/statistics/1235360/denmark-distribution-of-electricity-production-by-source/#:~:text=In%202023%2C%20wind%20power%20accounted,solar%20and%20wind%20power%20worldwide.',
+    author: 'State of Green',
+    name: 'Denmark is once again ranked the world’s most sustainable',
+    url: 'https://stateofgreen.com/en/news/denmark-ranked-worlds-most-sustainable/',
   },
   {
     id: 2,
-    author: 'DTU',
-    name: 'DTU is building for a sustainable future',
+    author: 'The Sustainable Living Guide',
+    name: '10 Most Sustainable Countries in the World',
     url: 'https://www.dtu.dk/english/news/all-news/nyhed?id=b4568db8-102b-4903-aa62-77a10edf254d',
   },
+  {
+    id: 3,
+    author: 'The World Bank',
+    name: 'Sustainable Development Report 2023',
+    url: 'https://dashboards.sdgindex.org/rankings',
+  },
 ]
+
+// circle for references
+function Circle() {
+  return (
+    <div className="mr-3 inline-block h-3 w-3 rounded-full bg-red-600 align-middle" />
+  )
+}
 
 export function References() {
   return (
@@ -24,26 +37,31 @@ export function References() {
       className="sm:py-15 flex items-center justify-center scroll-smooth py-4"
     >
       <Container className="relative z-10">
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <h2
             id="part1-title"
             className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-4xl"
           >
             References
           </h2>
-          <p className="mt-4 text-left font-display text-2xl tracking-tight text-red-900">
+          <div className="mt-4 text-left font-display text-2xl tracking-tight text-red-900">
             {references.map((reference) => (
-              <a
+              <div
                 key={reference.id}
-                href={reference.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 block text-red-900 hover:underline"
+                className="mt-2 flex items-center text-red-900 hover:underline"
               >
-                {reference.author}. <i>{reference.name}</i>
-              </a>
+                <Circle />
+                <a
+                  href={reference.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  {reference.author}. <i>{reference.name}</i>
+                </a>
+              </div>
             ))}
-          </p>
+          </div>
         </div>
       </Container>
     </section>

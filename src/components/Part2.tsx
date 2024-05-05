@@ -2,6 +2,8 @@
 
 import { Container } from '@/components/Container'
 import Script from 'next/script'
+import BeyondBorders from '@/images/beyondBorders.png'
+import Image from 'next/image'
 
 export function Part2() {
   return (
@@ -10,76 +12,84 @@ export function Part2() {
       className="sm:py-15 flex items-center justify-center scroll-smooth py-10"
     >
       <Container className="relative z-10">
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <h2
             id="part1-title"
             className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-4xl"
           >
-            Development in the last years
+            Denmark beyond borders
           </h2>
+          <div className="relative mt-10 h-96">
+            <Image
+              src={BeyondBorders}
+              alt="Low Poly World 2021"
+              layout="fill"
+              objectFit="cover"
+            />
+            {/* caption */}
+            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white">
+              <p className="text-sm">
+                <i>Low poly world</i>. Made by{' '}
+                <a
+                  href="https://dribbble.com/MohChahin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  Mohamed Chahin
+                </a>{' '}
+                on{' '}
+                <a
+                  href="https://dribbble.com/shots/15525137-Low-Poly-World-2021"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  Dribbble
+                </a>
+              </p>
+            </div>
+          </div>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-            delectus ipsum quas unde, iure reiciendis doloribus officia facilis
-            accusamus nemo veniam praesentium? Eaque magnam esse dolorem
-            recusandae harum est voluptate.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic
+            voluptatibus, fuga rerum iste quae odio quia totam ex ut tenetur
+            quam consequuntur, veritatis error esse molestias saepe dolorum
+            temporibus.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
-            Greenhouse Gas Emissions Trends
+            Rising through the ranks
           </h3>
         </div>
+        {/* race chart */}
         <div
-          className="flourish-embed flourish-map mt-5 border-2 border-red-200"
-          data-src="visualisation/17679681"
-        >
-          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
-        </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">
+          className="flourish-embed flourish-bar-chart-race mt-5 border-2 border-red-200"
+          data-src="visualisation/17482383"
+        />
+        <Script
+          src="https://public.flourish.studio/resources/embed.js"
+          strategy="afterInteractive"
+        />
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-            voluptatum ullam rem voluptatibus non, dolores quaerat assumenda id
-            nobis libero consequatur pariatur magni, impedit nulla voluptate
-            aut, tempore exercitationem ab?
+            From 2005 to 2022, Denmark&apos;s journey in renewable energy is a
+            vivid tale of ascent. Initially absent from the charts, Denmark
+            began its climb, fueled by ambitious policies and innovative
+            technologies. As the years passed, this small nation marked its
+            progress not just by numbers, but by leaps—moving from unlisted to a
+            commendable seventh place among Europe&apos;s leaders in
+            sustainability. It&apos;s a bold narrative of commitment, casting
+            Denmark not only as a participant but as a beacon in the renewable
+            energy race.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nemo
-            quia error vitae dolor ipsum facere amet! Incidunt aut
-            exercitationem nostrum voluptates perferendis cumque rerum tenetur
-            adipisci quasi, delectus non.
-          </p>
-          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
-            Decomposing the Emissions
-          </h3>
-          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-            voluptates inventore hic at dignissimos repellat aut quisquam ex?
-            Animi eos cupiditate architecto labore repudiandae iste ipsa eius
-            sunt minus unde.
-          </p>
-          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
-            Fossil Fuel Consumption and Energy Transition
-          </h3>
-        </div>
-        <div
-          className="flourish-embed flourish-map mt-5 border-2 border-red-200"
-          data-src="visualisation/17827873"
-        >
-          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
-        </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">
-          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            illum explicabo, voluptate obcaecati cum itaque consectetur nihil
-            omnis iste pariatur! Voluptate amet incidunt odio. Assumenda
-            repellendus esse ab vero quisquam.
-          </p>
-          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
-            Exploring the Shift
-          </h3>
-          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            labore nemo ad! Quam, suscipit architecto soluta impedit voluptate
-            id explicabo ut similique, nihil ad odit officia sit expedita fugiat
-            rem!
+            This rise is particularly notable when seen in the context of
+            overall European progress. While each nation advanced,
+            Denmark&apos;s trajectory stands out for its steepness and speed. By
+            2022, it outpaced many neighbors, not merely improving but
+            transforming its energy landscape. This indicates not just higher
+            investment rates, but more effective integration of renewable
+            sources, setting Denmark apart in the ongoing quest for a greener
+            future.
           </p>
         </div>
       </Container>

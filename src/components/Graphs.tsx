@@ -103,6 +103,22 @@ export function Graphs() {
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
+
+        {/* Fossil fuel consumpt. */}
+        <div
+          className="flourish-embed flourish-map mt-5 border-2 border-red-200"
+          data-src="visualisation/17827873"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+
+        {/* greenhouse ghas emissions trends */}
+        <div
+          className="flourish-embed flourish-map mt-5 border-2 border-red-200"
+          data-src="visualisation/17679681"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
       </Container>
     </section>
   )

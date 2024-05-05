@@ -14,60 +14,33 @@ export function Introduction() {
             id="intro-title"
             className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-4xl"
           >
-            Introduction: Leading the Charge in Sustainable Energy
+            Leading the Charge in Sustainable Energy
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            <b>
-              Why is Denmark often hailed as a beacon of green energy and
-              sustainability in Europe?
-            </b>{' '}
-            In a world grappling with the urgent need for environmental action,
-            Denmark stands out for its revolutionary approach to renewable
-            energy and sustainable living.
+            It&apos;s not uncommon to spot wind turbines gracefully spinning in
+            the water as you take a leisurely stroll along the beaches of
+            Denmark. Adding to this picturesque scene, a quick browse on the web
+            for topics like <b>"Most sustainable country in the world"</b>{' '}
+            invariably leads you to articles boasting about Denmark's status as
+            the pinnacle of sustainability.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            In 2023,{' '}
-            <b>
-              wind power accounted for over 57 percent of Denmark&apos;s
-              electricity generation
-            </b>
-            , a testament to its commitment to green energy. This website
-            explores Denmark&apos;s strategies, comparing its performance with
-            other European countries in areas such as renewable energy adoption,
-            economic impact, and policy responses.
+            <b>But is it truly deserving of this title?</b> As pragmatic
+            engineers, we feel compelled to fact-check online information. In an
+            age saturated with fake news and deep fakes, which often sway public
+            opinion, it&apos;s crucial to scrutinize the data meticulously.
           </p>
 
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            In line with this national focus, one of the key investments in 2021
-            was by the Technical University of Denmark (DTU), which allocated
-            nearly DKK 400 million to the <b>Climate Challenge Laboratory</b>.
-            This project is just one example of how academic institutions are
-            contributing to Denmark&apos;s robust efforts to pioneer sustainable
-            technologies and solutions.
+            <b>That&apos;s where we come in</b>. We are a group of students from
+            the Technical University of Denmark (DTU), and we are here to
+            investigate the veracity of these claims. We aim to provide you with
+            a comprehensive overview of Denmark's energy landscape, exploring
+            the country&apos;s commitment to sustainability and the impact of
+            its policies on the environment.
           </p>
 
-          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
-            Explore with us:
-          </h3>
-          <ul className="ml-6 mt-4 list-disc font-display text-2xl tracking-tight text-red-900">
-            <li>
-              <b>Air and Energy</b>: Discover Denmark&apos;s environmental and
-              energy footprint. How clean is the air in Copenhagen? What is the
-              scale of energy harnessed from the wind and sea?
-            </li>
-            <li>
-              <b>Denmark and Europe</b>: Examine how Denmark stands alongside
-              its European counterparts. What drives Denmark&apos;s leadership
-              in sustainable energy on the continent?
-            </li>
-            <li>
-              <b>Renewable and Economic</b>: Evaluate the dividends of
-              Denmark&apos;s investments in renewable energy. Are the windmills
-              of change truly paying off?
-            </li>
-            <li>...</li>
-          </ul>
-          <p className="mt-8 font-display text-2xl tracking-tight text-red-900">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             <b>Join our exploration</b> to uncover how Denmark is setting the
             pace for a sustainable future.
           </p>
