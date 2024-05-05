@@ -3,7 +3,6 @@
 import { Container } from '@/components/Container'
 import Image from 'next/image'
 import Script from 'next/script'
-// import DenmarkUrbanGreen from '@/images/denmarkGreenUrban.jpg'
 import DenmarkUrbanGreen from '@/images/greenTransformation.jpg'
 
 export function Part1() {
@@ -52,10 +51,15 @@ export function Part1() {
             </div>
           </div>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            facilis nisi aliquam amet illum inventore sunt, possimus sed
-            laboriosam asperiores ut quaerat rerum rem tenetur aut, animi cumque
-            nihil! Enim!
+            Venture into the heart of Denmark&apos;s green revolution where the
+            air is clearer and the energy greener. From the windswept fields of
+            Risø, where air quality data paints a stark picture of past
+            pollution, to the innovative strides reducing greenhouse gases, our
+            story unfolds. Witness Denmark&apos;s shift from fossil fuels, see
+            the balance of energy consumption with production, and explore how
+            economic vigor underpins these transformations. This is a tale of
+            environmental foresight and the sustainable legacy Denmark aims to
+            build.
           </p>
         </div>
         <div className="mx-auto max-w-4xl lg:mx-0">
