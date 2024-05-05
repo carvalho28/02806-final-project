@@ -352,7 +352,7 @@ export function Part1() {
             on harmonizing environmental sustainability with economic growth. To
             fully appreciate the scale and context of Denmark&apos;s
             achievements, it&apos;s essential to place them within a broader
-            international framework. We will next explore how Denmark's
+            international framework. We will next explore how Denmark&apos;s
             performance compares with that of other European countries and
             globally, delving into where Denmark stands in its green transition
             relative to its peers.
