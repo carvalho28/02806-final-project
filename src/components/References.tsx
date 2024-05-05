@@ -21,6 +21,30 @@ const references = [
     name: 'Sustainable Development Report 2023',
     url: 'https://dashboards.sdgindex.org/rankings',
   },
+  {
+    id: 4,
+    author: 'Britannica',
+    name: 'Greenhouse gas',
+    url: 'https://www.britannica.com/science/greenhouse-gas',
+  },
+  {
+    id: 5,
+    author: 'Earth.org',
+    name: 'What Are the Major Sources of Methane in the Atmosphere?',
+    url: 'https://earth.org/sources-of-methane-in-the-atmosphere/',
+  },
+  {
+    id: 6,
+    author: 'SCIRO',
+    name: 'What are the sources of carbon dioxide in the atmosphere?',
+    url: 'https://www.csiro.au/en/research/environmental-impacts/climate-change/Climate-change-QA/Sources-of-CO2',
+  },
+  {
+    id: 7,
+    author: 'BBC',
+    name: 'COP26: The truth behind the new climate change denial',
+    url: 'https://www.bbc.com/news/science-environment-59251912',
+  },
 ]
 
 // circle for references
@@ -63,6 +87,8 @@ export function References() {
             ))}
           </div>
         </div>
+        {/* line */}
+        <div className="mt-10 border-t border-red-800  border-opacity-25" />
       </Container>
     </section>
   )
