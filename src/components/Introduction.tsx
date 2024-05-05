@@ -14,7 +14,7 @@ export function Introduction() {
             id="intro-title"
             className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-4xl"
           >
-            Leading the Charge in Sustainable Energy
+            Leading the charge in sustainable energy
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             It&apos;s not uncommon to spot wind turbines gracefully spinning in
