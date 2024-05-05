@@ -8,7 +8,7 @@ export function Hero() {
     <div className="relative scroll-smooth sm:pb-10 sm:pt-20">
       <BackgroundImage className="-top-25 -bottom-14" />
       <Container className="relative">
-        <div className="mx-auto max-w-3xl lg:max-w-4xl lg:px-12">
+        <div className="mx-auto max-w-4xl lg:px-12">
           <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-red-600 sm:text-5xl">
             Green Shift: Denmark&apos;s Energy Path
           </h1>

@@ -1,7 +1,10 @@
 'use client'
 
 import { Container } from '@/components/Container'
+import Image from 'next/image'
 import Script from 'next/script'
+// import DenmarkUrbanGreen from '@/images/denmarkGreenUrban.jpg'
+import DenmarkUrbanGreen from '@/images/greenTransformation.jpg'
 
 export function Part1() {
   return (
@@ -10,13 +13,44 @@ export function Part1() {
       className="sm:py-15 flex items-center justify-center scroll-smooth py-10"
     >
       <Container className="relative z-10">
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <h2
             id="part1-title"
             className="text-center font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-4xl"
           >
             Understanding Denmark
           </h2>
+          <div className="relative mt-10 h-96">
+            <Image
+              src={DenmarkUrbanGreen}
+              alt="Urban greenery in Denmark"
+              layout="fill"
+              objectFit="cover"
+            />
+            {/* caption */}
+            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white">
+              <p className="text-sm">
+                <i>Denmark&apos;s urban greenery</i>. Made by{' '}
+                <a
+                  href="https://dribbble.com/gulzadesenturk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  Gülzade Şentürk
+                </a>{' '}
+                on{' '}
+                <a
+                  href="https://dribbble.com/shots/10511720-Green-Transformation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  Dribbble
+                </a>
+              </p>
+            </div>
+          </div>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             facilis nisi aliquam amet illum inventore sunt, possimus sed
@@ -24,7 +58,7 @@ export function Part1() {
             nihil! Enim!
           </p>
         </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             The air we breathe
           </h3>
@@ -54,7 +88,7 @@ export function Part1() {
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
 
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Our ten-year review reveals a narrative of resilience and progress.
             Despite the inherent ebbs and flows in the PM10 data, a clear trend
@@ -97,7 +131,7 @@ export function Part1() {
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Greenhouse gases, which include not only carbon dioxide but also
             methane, water vapor, and others, trap infrared radiation from the
@@ -152,7 +186,7 @@ export function Part1() {
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             This comparative graph not only shows the fossil fuel share halving
             as a percentage of Denmark&apos;s primary energy sources but also
@@ -199,7 +233,7 @@ export function Part1() {
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
-        <div className="mx-auto max-w-3xl lg:mx-0">
+        <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             This interactive graph clearly delineates the shift in energy
             consumption patterns in Denmark. Notably, the overall energy
@@ -218,6 +252,45 @@ export function Part1() {
           </p>
         </div>
         {/* Energy production */}
+        <div
+          className="flourish-embed flourish-chart mt-4 border-2 border-red-200"
+          data-src="visualisation/17805259"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+        <div className="mx-auto max-w-4xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            When examining energy production, the narrative slightly shifts.
+            While oil production has only seen a modest reduction of 8%, coal
+            production has significantly decreased, now contributing only about
+            6% to the total energy production, down from 20% a decade ago. This
+            decline in coal usage is a critical step forward in Denmark&apos;s
+            environmental strategy.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Despite the challenges associated with storing renewable energy, due
+            to the high costs and inefficiencies of current battery
+            technologies, the rise in renewable production marks progress.
+            Denmark&apos;s energy transformation, though complex, is a testament
+            to its pioneering spirit and commitment to sustainability.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            We can only hope that Denmark continues on this path, further
+            reducing reliance on non-renewable sources and enhancing the
+            efficiency of renewable energy storage. This journey illustrates not
+            only the challenges of such a monumental shift but also the
+            potential for significant environmental and economic benefits as
+            Denmark powers into the future.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            As we have seen, Denmark&apos;s commitment to transforming its
+            energy sources is not just a tale of environmental stewardship but
+            also a strategic economic move. Next, we will explore how these
+            energy policies are intertwined with Denmark&apos;s economic
+            performance, revealing the financial implications and benefits of a
+            sustainable energy strategy.
+          </p>
+        </div>
       </Container>
     </section>
   )
