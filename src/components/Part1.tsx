@@ -83,7 +83,7 @@ export function Part1() {
         {/*  PM 10 concentration in Denmark*/}
         <div
           className="flourish-embed flourish-chart mt-4 border-2 border-red-200"
-          data-src="visualisation/17651377"
+          data-src="visualisation/17834675"
         >
           <Script src="https://public.flourish.studio/resources/embed.js"></Script>
         </div>
@@ -289,6 +289,73 @@ export function Part1() {
             energy policies are intertwined with Denmark&apos;s economic
             performance, revealing the financial implications and benefits of a
             sustainable energy strategy.
+          </p>
+          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
+            Energizing the economy
+          </h3>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            In our exploration of Denmark&apos;s environmental and energy
+            strategies, it&apos;s crucial to address another key aspect: the
+            economic impact. Amidst widespread skepticism about the economic
+            feasibility of green policies, where concerns often center on the
+            potential for job losses and hindered growth, Denmark&apos;s
+            experience offers a compelling counter-narrative.
+          </p>
+        </div>
+        {/* Denmark GDP: */}
+        <div
+          className="flourish-embed flourish-chart mt-4 border-2 border-red-200"
+          data-src="visualisation/17505568"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+        <div className="mx-auto max-w-4xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Our analysis begins by examining Denmark&apos;s Gross Domestic
+            Product (GDP) over the past two decades—a period marked by
+            significant strides towards sustainability. The data reveals a
+            consistent upward trend in GDP. This steady growth, while not
+            dramatically sharp, is significant and aligns with Denmark&apos;s
+            intensified efforts toward renewable energy adoption and
+            environmental stewardship.
+          </p>
+        </div>
+        {/*  GDP per capita vs. renewable energy utilization, 2000-2022 */}
+        <div
+          className="flourish-embed flourish-chart border-2 border-red-200"
+          data-src="visualisation/17680141"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+        <div className="mx-auto max-w-4xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            To deepen our understanding, we compare GDP growth with the rise in
+            renewable energy utilization. This comparison illustrates a clear
+            correlation between economic health and green policies. Far from
+            being a mere coincidence, this relationship underscores a successful
+            strategy where economic activities increasingly leverage clean
+            energy.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Contrary to fears that environmental initiatives could dampen
+            economic vitality, Denmark&apos;s example suggests that sustainable
+            practices can coincide with, or even propel, economic prosperity.
+            The integration of GDP growth with robust renewable energy usage
+            challenges the myth that sustainability necessitates economic
+            sacrifice. Instead, it reveals that Denmark&apos;s proactive
+            environmental agenda has not only helped preserve its natural beauty
+            but also bolstered its economic resilience and competitiveness on a
+            global scale.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            As we move forward, Denmark&apos;s journey offers insightful lessons
+            on harmonizing environmental sustainability with economic growth. To
+            fully appreciate the scale and context of Denmark&apos;s
+            achievements, it&apos;s essential to place them within a broader
+            international framework. We will next explore how Denmark's
+            performance compares with that of other European countries and
+            globally, delving into where Denmark stands in its green transition
+            relative to its peers.
           </p>
         </div>
       </Container>

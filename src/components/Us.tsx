@@ -5,9 +5,13 @@ import Italy from '@/images/italy.png'
 import Portugal from '@/images/portugal.png'
 
 const members = [
-  { name: 'Diogo Carvalho', number: 's233176', country: 'Portugal' },
-  { name: 'Davide Sismeiro', number: 's233204', country: 'Italy' },
-  { name: 'Matteo Piccagnoni', number: 's232713', country: 'Italy' },
+  { name: 'Diogo Carvalho', number: 's233176', countries: ['Portugal'] },
+  {
+    name: 'Davide Giuffrida',
+    number: 's233204',
+    countries: ['Portugal', 'Italy'],
+  },
+  { name: 'Matteo Piccagnoni', number: 's232713', countries: ['Italy'] },
 ]
 
 export function Us() {
@@ -23,13 +27,20 @@ export function Us() {
               key={member.number}
               className="flex flex-col items-center space-y-4"
             >
-              <div className="relative h-24 w-24 overflow-hidden rounded-full bg-gray-100">
-                <Image
-                  src={member.country === 'Italy' ? Italy : Portugal}
-                  layout="fill"
-                  objectFit="cover"
-                  alt={member.country}
-                />
+              <div className="flex space-x-2">
+                {member.countries.map((country) => (
+                  <div
+                    key={country}
+                    className="relative h-24 w-24 overflow-hidden rounded-full bg-gray-100"
+                  >
+                    <Image
+                      src={country === 'Italy' ? Italy : Portugal}
+                      layout="fill"
+                      objectFit="cover"
+                      alt={country}
+                    />
+                  </div>
+                ))}
               </div>
               <div className="text-center">
                 <h3 className="font-display text-2xl font-medium text-red-900">
