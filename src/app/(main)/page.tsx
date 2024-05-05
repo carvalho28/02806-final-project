@@ -15,7 +15,7 @@ export default function Home() {
       <Introduction />
       <Part1 />
       <Part2 />
-      <Graphs />
+      {/* <Graphs /> */}
       <Conclusion />
       <NotebookPart />
       <References />
