@@ -6,3 +6,6 @@
 .flourish-credit {
   display: none;
 }
+html {
+  scroll-padding-top: 4rem;
+}

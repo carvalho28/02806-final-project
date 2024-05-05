@@ -31,7 +31,7 @@ function MobileNavIcon({ open }: { open: boolean }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-red-700"
+      className="mb-2 h-3.5 w-3.5 overflow-visible stroke-red-700"
       fill="none"
       strokeWidth={2}
       strokeLinecap="round"
@@ -125,23 +125,27 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="fixed relative z-50 flex-none lg:pt-11">
-      <Container className="flex items-center justify-between lg:flex-nowrap">
-        <div className="flex-none">
+    <header className="fixed inset-x-0 top-0 z-50 h-16 bg-white shadow-md">
+      <Container className="flex h-full items-center justify-between lg:flex-nowrap">
+        <div className="flex h-full items-center">
           <Image
             src={backgroundImage}
-            width={40}
+            width={35}
             alt=""
-            className="w-5 md:w-10"
+            className="w-5 md:w-8"
           />
         </div>
-        <div className="flex flex-grow justify-center py-4 font-mono text-sm text-red-600 lg:py-0">
-          <div className="flex items-center gap-4">
+        <div className="flex h-full flex-grow items-center justify-center text-sm text-red-600">
+          {' '}
+          {/* Removed padding and ensured full height */}
+          <div className="flex items-center justify-center gap-4">
             <Link href="/">
-              <p>Final Project</p>
+              <p className="font-mono">Final Project</p>
             </Link>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>02806 Social Data Analysis and Visualization</p>
+            <p className="font-mono">
+              02806 Social Data Analysis and Visualization
+            </p>
           </div>
         </div>
         <MobileNavigation />
