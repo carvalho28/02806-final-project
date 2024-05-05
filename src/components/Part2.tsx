@@ -2,7 +2,7 @@
 
 import { Container } from '@/components/Container'
 import Script from 'next/script'
-import BeyondBorders from '@/images/beyondBorders.png'
+import BeyondBorders from '@/images/beyondBorders.jpeg'
 import Image from 'next/image'
 
 export function Part2() {
@@ -29,18 +29,18 @@ export function Part2() {
             {/* caption */}
             <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white">
               <p className="text-sm">
-                <i>Low poly world</i>. Made by{' '}
+                <i>World Environment Day</i>. Made by{' '}
                 <a
-                  href="https://dribbble.com/MohChahin"
+                  href="https://dribbble.com/zoljo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                 >
-                  Mohamed Chahin
+                  Zoran Milic
                 </a>{' '}
                 on{' '}
                 <a
-                  href="https://dribbble.com/shots/15525137-Low-Poly-World-2021"
+                  href="https://dribbble.com/shots/2959475-Flat-Earth"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
@@ -51,10 +51,11 @@ export function Part2() {
             </div>
           </div>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic
-            voluptatibus, fuga rerum iste quae odio quia totam ex ut tenetur
-            quam consequuntur, veritatis error esse molestias saepe dolorum
-            temporibus.
+            Our exploration expands as we assess Denmark&apos;s standing in
+            greenhouse gas emissions and renewable energy usage against global
+            and European benchmarks. This comparison highlights Denmark&apos;s
+            strides towards sustainability and the ongoing challenges it faces
+            in its environmental commitments.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Rising through the ranks
@@ -90,6 +91,88 @@ export function Part2() {
             investment rates, but more effective integration of renewable
             sources, setting Denmark apart in the ongoing quest for a greener
             future.
+          </p>
+
+          {/* Greenhouse */}
+          <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
+            Contextualizing Sustainability
+          </h3>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            In assessing the progress Denmark has made in reducing greenhouse
+            gas emissions, it becomes essential to view these efforts within a
+            wider lens, comparing its achievements not just locally, but against
+            the backdrop of Europe and the world. A key indicator in this
+            examination is CO<sub>2</sub> emissions per capita, which allows for
+            an equitable comparison across countries by accounting for
+            population size.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Initially, Denmark&apos;s per capita emissions were significantly
+            higher than the European average. However, a series of targeted
+            investments and forward-thinking policies have elevated Denmark to a
+            position among the European leaders in reducing per capita
+            emissions.
+          </p>
+        </div>
+
+        {/* CO2 emissions per capita */}
+        <div
+          className="flourish-embed flourish-chart mt-4 border-2 border-red-200"
+          data-src="visualisation/17669871"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+
+        <div className="mx-auto max-w-4xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            While Denmark has made commendable progress in Europe, its
+            comparison with the global average tells a slightly different story.
+            Here, Denmark approaches but does not surpass the world average, a
+            figure heavily influenced by the lower emissions from third-world
+            and developing countries. These nations typically have
+            underdeveloped economies that contribute less to global pollution
+            levels, providing a unique challenge in how we interpret "low
+            emission" statistics globally.
+          </p>
+        </div>
+
+        {/* interactive map greenhouse capita */}
+        <div
+          className="flourish-embed flourish-map mt-4 border-2 border-red-200"
+          data-src="visualisation/17829385"
+        >
+          <Script src="https://public.flourish.studio/resources/embed.js"></Script>
+        </div>
+        <div className="mx-auto max-w-4xl lg:mx-0">
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Exploring further, an interactive map visualization of Europe
+            reveals intriguing trends that contrast with some of Denmark&apos;s
+            perceived advancements. When the data from this map is juxtaposed
+            with earlier analyses, such as the race chart of renewable energy
+            shares, an unexpected pattern emerges: Denmark, along with its
+            Nordic neighbors, shows higher than expected per capita greenhouse
+            gas emissions. This seems paradoxical given their robust renewable
+            energy infrastructures and low absolute emissions figures.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            This anomaly can be attributed to several factors inherent to
+            smaller, industrialized countries like Denmark. Despite their
+            advancements in renewable energy, these countries often have small
+            populations, which can skew per capita calculations. Moreover, the
+            higher standard of living, the necessity for extensive heating
+            systems in colder climates, and complex transportation needs
+            inherently increase per capita emissions.
+          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Upon scrutinizing these insights, it becomes clear that Denmark,
+            while on the right track, still faces significant challenges. The
+            higher per capita emissions among Europe&apos;s renewable leaders
+            suggest that even the most progressive countries must explore
+            further measures to effectively reduce their environmental impact.
+            This realization underscores the complexity of global and regional
+            sustainability efforts and highlights the continuous need for
+            innovative solutions tailored to the unique challenges of each
+            country.
           </p>
         </div>
       </Container>
