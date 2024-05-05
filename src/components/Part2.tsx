@@ -131,8 +131,8 @@ export function Part2() {
             figure heavily influenced by the lower emissions from third-world
             and developing countries. These nations typically have
             underdeveloped economies that contribute less to global pollution
-            levels, providing a unique challenge in how we interpret "low
-            emission" statistics globally.
+            levels, providing a unique challenge in how we interpret &quot;low
+            emission&quot; statistics globally.
           </p>
         </div>
 
