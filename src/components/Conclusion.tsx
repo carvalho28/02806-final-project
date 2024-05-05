@@ -5,7 +5,7 @@ import { Container } from '@/components/Container'
 export function Conclusion() {
   return (
     <section
-      id="intro"
+      id="conclusion"
       className="sm:py-15 flex items-center justify-center scroll-smooth pb-10 pt-6"
     >
       <Container className="relative z-10">

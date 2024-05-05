@@ -22,25 +22,26 @@ export function Part2() {
           <div className="relative mt-10 h-96">
             <Image
               src={BeyondBorders}
-              alt="Low Poly World 2021"
+              alt="Renewable Energy"
               layout="fill"
               objectFit="cover"
+              objectPosition="center top"
             />
             {/* caption */}
             <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4 text-white">
               <p className="text-sm">
-                <i>World Environment Day</i>. Made by{' '}
+                <i>Renewable Energy</i>. Made by{' '}
                 <a
-                  href="https://dribbble.com/zoljo"
+                  href="https://dribbble.com/mspasova"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                 >
-                  Zoran Milic
+                  Mila Spasova
                 </a>{' '}
                 on{' '}
                 <a
-                  href="https://dribbble.com/shots/2959475-Flat-Earth"
+                  href="https://dribbble.com/shots/15069121-Renewable-Energy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"

@@ -8,7 +8,7 @@ import Image from 'next/image'
 export function NotebookPart() {
   return (
     <section
-      id="references"
+      id="notebook"
       className="sm:py-15 flex items-center justify-center scroll-smooth py-4 pb-10"
     >
       <Container className="z-11 relative">

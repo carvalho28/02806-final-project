@@ -318,7 +318,7 @@ export function Part1() {
         </div>
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Here, we&apos;ve plotted the actual percentage growth of
+            Here, we&apos;ve plotted the real percentage growth of
             Denmark&apos;s GDP against previous periods. Despite some
             fluctuations, a clear trend emerges over the last two
             decades—consistent economic growth. This growth period coincides
