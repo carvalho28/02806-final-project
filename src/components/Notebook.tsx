@@ -49,6 +49,9 @@ export default function Notebook() {
               </svg>
               <span className="sr-only">Loading...</span>
             </div>
+            <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+              Planting some trees...
+            </p>
           </div>
         )}
         {htmlContent ? (
