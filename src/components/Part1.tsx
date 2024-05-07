@@ -65,11 +65,11 @@ export function Part1() {
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             As we navigate through the landscape of Denmark&apos;s environmental
             policies, our initial focus is on the air that Danes breathe every
-            day. The foundation of our analysis is the PM10 data, a critical
-            indicator of air quality. PM10 particles, with a diameter of less
-            than 10 micrometers, are fine enough to bypass the body&apos;s
-            defenses, penetrating deep into the lungs and potentially causing a
-            range of health problems.
+            day. The foundation of our analysis is the <b>PM10 data</b>, a
+            critical indicator of air quality. PM10 particles, with a diameter
+            of less than 10 micrometers, are fine enough to bypass the
+            body&apos;s defenses, penetrating deep into the lungs and
+            potentially causing a range of health problems.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             The data for our exploration originates from a monitoring station in
@@ -91,16 +91,19 @@ export function Part1() {
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             The data speaks clearly. Despite the inherent ebbs and flows in the
-            PM10 curve, a clear trend emerges: a significant and sustained
-            reduction in particle concentration. This downward trajectory is not
-            just a number on a chart; it represents a breath of fresh air for
-            all Danes, reducing health risks and enhancing quality of life.
+            PM10 curve, a clear trend emerges:{' '}
+            <b>
+              a significant and sustained reduction in particle concentration
+            </b>
+            . This downward trajectory is not just a number on a chart; it
+            represents a breath of fresh air for all Danes, reducing health
+            risks and enhancing quality of life.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             This improvement in air quality is a testament to Denmark&apos;s
             rigorous environmental policies and its commitment to sustainable
             practices. Each step toward cleaner air also contributes to the
-            reduction of greenshouse gas emissions, a key metric in today&apos;s
+            reduction of greenhouse gas emissions, a key metric in today&apos;s
             climate crisis.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
@@ -116,8 +119,8 @@ export function Part1() {
           </h3>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Another fundamental aspect of Denmark&apos;s environmental strategy
-            is its management of greenhouse gas emissions, which serves as a
-            critical barometer of sustainability.
+            is its management of <b>greenhouse gas emissions</b>, which serves
+            as a critical barometer of sustainability.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Greenhouse gases, which include not only carbon dioxide but also
@@ -126,8 +129,8 @@ export function Part1() {
             emissions originate from a variety of sources, encompassing
             everything from agricultural practices to industrial processes. The
             graph we present excludes CO<sub>2</sub> emissions from biomass,
-            focusing instead on those emissions most directly linked to human
-            activities.
+            focusing instead on those{' '}
+            <b>emissions most directly linked to human activities</b>.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Over the past 10 years, Denmark has shown a commendable decrease in
@@ -146,17 +149,24 @@ export function Part1() {
             The data reveals a consistent decline in overall greenhouse gas
             emissions. In particular, we notice how Denmark has been able to
             curb by about <b>20,000 tonnes</b> in emissions. This success story
-            is particularly evident in the reduction of methane emissions, which
-            are significantly influenced by three main sectors: farming and
+            is particularly evident in the reduction of emissions, which are
+            significantly influenced by three main sectors: farming and
             agriculture, fossil fuels, and waste management. Each sector has
             seen targeted interventions aimed at reducing its carbon footprint.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Turning our attention to CO<sub>2</sub>, over 90% of these emissions
-            in Denmark stem from the combustion of fossil fuels. This direct
-            link underscores the importance of transitioning away from fossil
-            fuels to alternative energy sources, a strategy that Denmark has
-            been aggressively pursuing.
+            Turning our attention to{' '}
+            <b>
+              CO<sub>2</sub>
+            </b>
+            , one of the most relevant greenhouse gases,{' '}
+            <b>
+              over 90% of these emissions stem from the combustion of fossil
+              fuels
+            </b>
+            . This direct link underscores the importance of transitioning away
+            from fossil fuels to alternative energy sources, a strategy that
+            Denmark has been aggressively pursuing.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             To further understand the impact of these changes, our next step
@@ -170,9 +180,9 @@ export function Part1() {
           </h3>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Over the past two decades, Denmark has dramatically reshaped its
-            energy framework, substantially reducing its dependence on fossil
-            fuels. This significant change is captured vividly in our next
-            visualization.
+            energy framework, substantially{' '}
+            <b>reducing its dependence on fossil fuels</b>. This significant
+            change is captured vividly in our next visualization.
           </p>
         </div>
         <div
@@ -183,11 +193,11 @@ export function Part1() {
         </div>
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            This comparative graph clearly shows how Denmark has almost halved
-            fossil fuel share over the past 20 years. Impressively, even as
-            Denmark&apos;s reliance on fossil fuels diminishes, we also observe
-            a marked decrease in overall energy usage{' '}
-            <b>shrinking by around 40 TWh</b>. This means that fossil fuel
+            This comparative graph clearly shows how Denmark{' '}
+            <b>has almost halved fossil fuel share over the past 20 years</b>.
+            Impressively, even as Denmark&apos;s reliance on fossil fuels
+            diminishes, we also observe a marked decrease in overall energy
+            usage <b>shrinking by around 40 TWh</b>. This means that fossil fuel
             combustion has decreased even in absolute terms, as evidenced not
             only by its reduced share, but also by the overall decline in
             primary energy consumption. This points to successful efficiency
@@ -197,11 +207,13 @@ export function Part1() {
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Furthermore, these trends offer insights into the declining
-            greenhouse gas emissions we discussed earlier. The strong link
-            between reduced fossil fuel usage and lower emissions is undeniable,
-            and while it&apos;s not the sole factor, it&apos;s clear that this
-            shift has played a crucial role in Denmark&apos;s environmental
-            progress.
+            greenhouse gas emissions we discussed earlier. The{' '}
+            <b>
+              strong link between reduced fossil fuel usage and lower emissions
+            </b>{' '}
+            is undeniable, and while it&apos;s not the sole factor, it&apos;s
+            clear that this shift has played a crucial role in Denmark&apos;s
+            environmental progress.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             As we transition from the tale of fossil fuels to the broader canvas
@@ -216,8 +228,12 @@ export function Part1() {
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Our focus shifts to how the country has transformed its energy mix
             to meet the daily needs of its citizens and economy. This evolution
-            is crucial not just for reducing environmental impact but also for
-            ensuring a stable, sustainable energy supply for future generations.
+            is crucial not just for reducing environmental impact but also for{' '}
+            <b>
+              ensuring a stable, sustainable energy supply for future
+              generations
+            </b>
+            .
           </p>
         </div>
         {/* Energy consumption */}
@@ -254,9 +270,10 @@ export function Part1() {
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             When examining energy production, the narrative slightly shifts.
-            While oil production has only seen a modest reduction of 8%, coal
-            production has significantly decreased, now contributing only about
-            6% to the total energy production, down from 20% a decade ago.
+            While <b>oil production</b> has only seen a modest{' '}
+            <b>reduction of 8%</b>, <b>coal production</b> has significantly
+            decreased, <b>now contributing only about 6%</b> to the total energy
+            production, down from 20% a decade ago.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Despite the challenges associated with storing renewable energy, due
@@ -269,10 +286,10 @@ export function Part1() {
             reducing reliance on non-renewable sources and enhancing the
             efficiency of renewable energy storage.
           </p>
-          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">Next, we will explore how these
-            energy policies are intertwined with Denmark&apos;s economic
-            performance, revealing the financial implications and benefits of a
-            sustainable energy strategy.
+          <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
+            Next, we will explore how these energy policies are intertwined with
+            Denmark&apos;s economic performance, revealing the financial
+            implications and benefits of a sustainable energy strategy.
           </p>
 
           {/* Section on economy */}
@@ -282,15 +299,13 @@ export function Part1() {
           </h3>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Understanding the performance of the Danish economy is crucial for
-            assessing the real impacts of sustainable policies. This analysis
-            helps dispel the myths that these policies necessarily lead to
-            economic downturns. Many arguments against climate-sensitive
+            assessing the <b>real impacts of sustainable policies</b>. This
+            analysis helps dispel the myths that these policies necessarily lead
+            to economic downturns. Many arguments against climate-sensitive
             policies revolve around concerns regarding the economy. Some fear
             that shifting towards sustainable policies involves high costs,
-            potential job losses, and could cause an economic
-            decline.
-            However, as
-            we embark on our fact-checking journey, we aim to challenge and
+            potential job losses, and could cause an economic decline. However,
+            as we embark on our fact-checking journey, we aim to challenge and
             disprove these notions.
           </p>
         </div>
@@ -305,10 +320,11 @@ export function Part1() {
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Here, we&apos;ve plotted the real percentage growth of
             Denmark&apos;s GDP against previous periods. Despite some
-            fluctuations, a clear trend emerges over the last two
-            decades—consistent economic growth. This growth period coincides
-            with Denmark&apos;s increased investment in renewable energy,
-            suggesting these two are positively correlated. We further explore this connection in the next visualization.
+            fluctuations, a clear trend emerges over the last two decades—
+            <b>consistent economic growth</b>. This growth period coincides with
+            Denmark&apos;s increased investment in renewable energy, suggesting
+            these two are positively correlated. We further explore this
+            connection in the next visualization.
           </p>
         </div>
         {/*  GDP per capita vs. renewable energy utilization, 2000-2022 */}
@@ -320,17 +336,17 @@ export function Part1() {
         </div>
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            <b>This correlation is more than a mere coincidence</b>. It paints a powerful
-            narrative of sustainable development and economic growth. Despite
-            initial concerns that investing in renewable energy might hinder
-            economic prosperity, Denmark&apos;s experience disproves this belief. As Denmark has ramped up renewable energy utilization, not
-            only has GDP per capita soared, but sectors like clean tech and
-            green manufacturing have thrived, clearly debunking the myth that
-            environmental care undermines economic vitality.
+            <b>This correlation is more than a mere coincidence</b>. It paints a
+            powerful narrative of sustainable development and economic growth.
+            Despite initial concerns that investing in renewable energy might
+            hinder economic prosperity, Denmark&apos;s experience disproves this
+            belief. As Denmark has ramped up renewable energy utilization, not
+            only has <b>GDP per capita soared</b>, but sectors like clean tech
+            and green manufacturing have thrived, clearly debunking the myth
+            that environmental care undermines economic vitality.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            To
-            fully appreciate the scale and context of Denmark&apos;s
+            To fully appreciate the scale and context of Denmark&apos;s
             achievements, it&apos;s essential to place them within a broader
             international framework. We will next explore how Denmark&apos;s
             performance compares with that of other European countries and

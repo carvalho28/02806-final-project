@@ -20,8 +20,8 @@ export function NotebookPart() {
             Discover the full analysis
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Curious about how we uncover insights from data? Dive into our full
-            analysis.
+            Curious about how we uncover insights from data?{' '}
+            <b>Dive into our full analysis</b>.
           </p>
           <div className="mt-8 flex items-center justify-center">
             <Image
