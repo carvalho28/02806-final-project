@@ -8,11 +8,11 @@ export default async function Notebook() {
     'utf8',
   )
   return (
-    <div className="relative scroll-smooth ">
+    <div className="relative scroll-smooth">
       <Container className="relative">
         {/* load html directly */}
         <div
-          className="mx-auto max-w-3xl lg:max-w-4xl lg:px-12"
+          className="mx-auto mt-20 max-w-3xl lg:max-w-4xl lg:px-12"
           dangerouslySetInnerHTML={{ __html: file }}
         />
       </Container>

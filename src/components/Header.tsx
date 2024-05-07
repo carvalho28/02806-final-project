@@ -87,7 +87,7 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute right-0 top-full mr-64 mt-4 flex w-72 origin-top-right flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="absolute right-0 top-full mr-32 mt-4 flex w-72 origin-top-right flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
             <MobileNavLink href="#intro">
               <b>Introduction</b>: Leading the charge in sustainable energy
@@ -140,10 +140,12 @@ export function Header() {
           {/* Removed padding and ensured full height */}
           <div className="flex items-center justify-center gap-4">
             <Link href="/">
-              <p className="font-mono">Final Project</p>
+              <p className="text-center font-mono lg:text-left">
+                Final Project
+              </p>
             </Link>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p className="font-mono">
+            <p className="text-center font-mono lg:text-left">
               02806 Social Data Analysis and Visualization
             </p>
           </div>
