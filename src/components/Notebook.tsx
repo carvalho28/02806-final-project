@@ -10,7 +10,7 @@ export default function Notebook() {
     const fetchHtmlContent = async () => {
       try {
         const url =
-          'https://api.github.com/repos/carvalho28/02806-final-project/contents/src/app/(main)/notebook/notebook.html'
+          'https://github.com/carvalho28/02806-final-project/blob/main/src/app/(main)/notebook/notebook.html'
         const response = await fetch(url, {
           headers: {
             Accept: 'application/vnd.github.v3.raw',
