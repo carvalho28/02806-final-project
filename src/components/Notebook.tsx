@@ -11,6 +11,7 @@ export default async function Notebook() {
     <div className="relative scroll-smooth">
       <Container className="relative">
         {/* load html directly */}
+
         <div
           className="mx-auto mt-20 max-w-3xl lg:max-w-4xl lg:px-12"
           dangerouslySetInnerHTML={{ __html: file }}
