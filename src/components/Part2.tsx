@@ -54,9 +54,7 @@ export function Part2() {
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Our exploration expands as we assess Denmark&apos;s standing in
             greenhouse gas emissions and renewable energy usage against global
-            and European benchmarks. This comparison highlights Denmark&apos;s
-            strides towards sustainability and the ongoing challenges it faces
-            in its environmental commitments.
+            and European benchmarks.
           </p>
           <h3 className="mt-8 font-display text-3xl tracking-tighter text-red-600">
             Rising through the ranks
@@ -78,10 +76,8 @@ export function Part2() {
             began its climb, fueled by ambitious policies and innovative
             technologies. As the years passed, this small nation marked its
             progress not just by numbers, but by leaps—moving from unlisted to a
-            commendable seventh place among Europe&apos;s leaders in
-            sustainability. It&apos;s a bold narrative of commitment, casting
-            Denmark not only as a participant but as a beacon in the renewable
-            energy race.
+            commendable 7<sup>th</sup> place among Europe&apos;s leaders in
+            sustainability.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             This rise is particularly notable when seen in the context of
@@ -109,10 +105,10 @@ export function Part2() {
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Initially, Denmark&apos;s per capita emissions were significantly
-            higher than the European average. However, a series of targeted
-            investments and forward-thinking policies have elevated Denmark to a
-            position among the European leaders in reducing per capita
-            emissions.
+            higher than the European and world average. However, a series of
+            targeted investments and forward-thinking policies have elevated
+            Denmark to a position among the European leaders in reducing per
+            capita emissions.
           </p>
         </div>
 
@@ -127,13 +123,13 @@ export function Part2() {
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             While Denmark has made commendable progress in Europe, its
-            comparison with the global average tells a slightly different story.
-            Here, Denmark approaches but does not surpass the world average, a
-            figure heavily influenced by the lower emissions from third-world
-            and developing countries. These nations typically have
-            underdeveloped economies that contribute less to global pollution
-            levels, providing a unique challenge in how we interpret &quot;low
-            emission&quot; statistics globally.
+            comparison with the rest of the world tells a slightly different
+            story. Here, Denmark gets closer but does not surpass the world
+            average. This value is heavily influenced by the lower emissions
+            from third-world and developing countries. These nations typically
+            have underdeveloped economies that contribute less to global
+            pollution levels, providing a unique challenge in how we interpret
+            &quot;low emission&quot; statistics globally.
           </p>
         </div>
 
@@ -146,11 +142,10 @@ export function Part2() {
         </div>
         <div className="mx-auto max-w-4xl lg:mx-0">
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Exploring further, an interactive map visualization of Europe
+            Exploring further, the interactive map visualization of Europe
             reveals intriguing trends that contrast with some of Denmark&apos;s
-            perceived advancements. When the data from this map is juxtaposed
-            with earlier analyses, such as the race chart of renewable energy
-            shares, an unexpected pattern emerges: Denmark, along with its
+            perceived advancements. When the data from this map is compared
+            with earlier analyses, such as the race chart we showcased, an unexpected pattern emerges. Denmark, along with its
             Nordic neighbors, shows higher than expected per capita greenhouse
             gas emissions. This seems paradoxical given their robust renewable
             energy infrastructures and low absolute emissions figures.
@@ -160,12 +155,12 @@ export function Part2() {
             smaller, industrialized countries like Denmark. Despite their
             advancements in renewable energy, these countries often have small
             populations, which can skew per capita calculations. Moreover, the
-            higher standard of living, the necessity for extensive heating
-            systems in colder climates, and complex transportation needs
+            higher standard of living and the necessity for extensive heating
+            systems in colder climates
             inherently increase per capita emissions.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            Upon scrutinizing these insights, it becomes clear that Denmark,
+            Upon reflecting on these insights, it becomes clear that Denmark,
             while on the right track, still faces significant challenges. The
             higher per capita emissions among Europe&apos;s renewable leaders
             suggest that even the most progressive countries must explore

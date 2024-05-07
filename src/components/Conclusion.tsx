@@ -18,7 +18,7 @@ export function Conclusion() {
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             As we conclude our exploration of Denmark&apos;s transformative
-            energy initiatives, it is evident how Denmark is charting a robust
+            energy initiatives, it is evident how the country is charting a robust
             green path not just within its own borders but influencing the
             global dialogue on sustainability. From pioneering reductions in
             greenhouse gas emissions to leading the charge in renewable energy
@@ -27,10 +27,7 @@ export function Conclusion() {
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             While challenges remain, particularly in managing per capita
-            emissions, Denmark&apos;s proactive approach serves as a beacon for
-            other nations. Its commitment to environmental innovation and policy
-            exemplifies how a focused green shift can lead to significant global
-            impacts.
+            emissions, we can&apos;t deny Denmark&apos;s proactive approach and its commitment to environmental innovations and policies.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
             Denmark&apos;s story, then, is more than just a national success; it

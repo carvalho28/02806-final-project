@@ -17,7 +17,7 @@ export function Introduction() {
             Leading the charge in sustainable energy
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            It&apos;s not uncommon to spot wind turbines gracefully spinning in
+            It is not uncommon to spot wind turbines gracefully spinning in
             the water as you take a leisurely stroll along the beaches of
             Denmark. Adding to this picturesque scene, a quick browse on the web
             for topics like{' '}
@@ -42,7 +42,7 @@ export function Introduction() {
           </p>
 
           <p className="mt-4 font-display text-2xl tracking-tight text-red-900">
-            <b>Join our exploration</b> to uncover how Denmark is setting the
+            <b>Join our interactive exploration</b> to uncover how Denmark is setting the
             pace for a sustainable future.
           </p>
         </div>
