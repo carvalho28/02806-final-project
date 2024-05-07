@@ -1,21 +1,47 @@
+'use client'
+
 import { Container } from '@/components/Container'
+import { useEffect, useState } from 'react'
 
-import { promises as fs } from 'fs'
+export default function Notebook() {
+  const [htmlContent, setHtmlContent] = useState('')
 
-export default async function Notebook() {
-  const file = await fs.readFile(
-    process.cwd() + '/src/app/(main)/notebook/notebook.html',
-    'utf8',
-  )
+  useEffect(() => {
+    const fetchHtmlContent = async () => {
+      try {
+        const url =
+          'https://api.github.com/repos/carvalho28/02806-final-project/contents/src/app/(main)/notebook/notebook.html'
+        const response = await fetch(url, {
+          headers: {
+            Accept: 'application/vnd.github.v3.raw',
+          },
+        })
+        const html = await response.text()
+        setHtmlContent(html)
+      } catch (error) {
+        console.error('Failed to fetch HTML content:', error)
+      }
+    }
+
+    fetchHtmlContent()
+  }, [])
+
   return (
     <div className="relative scroll-smooth">
       <Container className="relative">
-        {/* load html directly */}
-
-        <div
+        {/* <div
           className="mx-auto mt-20 max-w-3xl lg:max-w-4xl lg:px-12"
-          dangerouslySetInnerHTML={{ __html: file }}
-        />
+          dangerouslySetInnerHTML={{ __html: htmlContent }}
+        /> */}
+
+        {htmlContent ? (
+          <div
+            className="mx-auto mt-20 max-w-3xl lg:max-w-4xl lg:px-12"
+            dangerouslySetInnerHTML={{ __html: htmlContent }}
+          />
+        ) : (
+          <p className="text-center">Loading...</p>
+        )}
       </Container>
     </div>
   )
